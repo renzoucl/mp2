@@ -33,34 +33,32 @@ export default new Router({
       path:"/shequ",
       component:Shequ
     },
-    // {
-    //   path:"/pub",
-    //   component:Pub,
-    //       children:[
-    //       {
-    //         path:"/home",
-    //         component:Home
-    //       },
-    //       {
-    //         path:"/shequ",
-    //         component:Shequ
-    //       },
-    //       {
-    //         path:"/ying",
-    //         component:Ying
-    //       },
-    //       {
-    //         path:"/mine",
-    //         component:Mine
-    //       },
-    //       {
-    //         path:"/dian",
-    //         component:Dian
-    //       }
-    //     ]
-          
-          
-    // },
+       {
+         path:"/pub",
+         component:Pub,
+             children:[
+             {
+               path:"/home",
+               component:Home
+             },
+             {
+               path:"/shequ",
+               component:Shequ
+             },
+             {
+               path:"/ying",
+               component:Ying
+             },
+             {
+               path:"/mine",
+               component:Mine
+             },
+             {
+               path:"/dian",
+               component:Dian
+             }
+           ]  
+       },
 
 
     {
